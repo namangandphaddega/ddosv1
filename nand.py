@@ -20,10 +20,10 @@ with open(config_file, "r") as f:
     config_data = json.load(f)
 
 # Access the token and channel IDs from config.json
-TOKEN = config_data['7981812737:AAEWzaDZlQbegzgtXFfhG96LLiL3bM06QNo']
-FORWARD_CHANNEL_ID = config_data['-1002181039657']
-CHANNEL_ID = config_data['-1002181039657']
-error_channel_id = config_data['-1002181039657']
+TOKEN = config_data['config.json']
+FORWARD_CHANNEL_ID = config_data['config.json']
+CHANNEL_ID = config_data['config.json']
+error_channel_id = config_data['config.json']
 ADMIN_ID = [6353114118]
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
